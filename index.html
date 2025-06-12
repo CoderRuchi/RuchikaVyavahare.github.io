@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ruchika's Developer Portfolio - Web Developer specializing in modern JavaScript frameworks">
+  <meta name="keywords" content="web developer, portfolio, JavaScript, React, frontend">
+  <title>Ruchika | Full Stack Developer</title>
+  <!-- Preload critical resources -->
+  <link rel="preload" href="css/style.css" as="style">
+  <link rel="preload" href="js/script.js" as="script">
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="alternate icon" href="assets/favicon.ico">
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- AOS Animation -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Fira+Code&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Loading Animation -->
+  <div class="loader">
+    <div class="loader-code">
+      <span class="loader-keyword">const</span> <span class="loader-var">ruchika</span> = <span class="loader-brace">{</span>
+      <div class="loader-line">skills: [<span class="loader-string">"JavaScript"</span>, <span class="loader-string">"React"</span>, <span class="loader-string">"Node.js"</span>],</div>
+      <div class="loader-line">passion: <span class="loader-string">"Building amazing web experiences"</span></div>
+      <span class="loader-brace">}</span>;
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <nav id="navbar">
+    <div class="container nav-container">
+      <a href="#" class="logo" aria-label="Home">Ruchi<span class="highlight">.dev</span></a>
+      <div class="menu-toggle" id="mobile-menu" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#certificates" class="nav-link">Certificates</a></li>
+        <!-- <li><a href="#testimonials" class="nav-link">Testimonials</a></li> -->
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li>
+          <a id="theme-toggle" aria-label="Toggle theme">
+            <i class="fas fa-moon"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <canvas id="particles-js"></canvas>
+    <div class="container">
+      <h1 class="hero-title" data-aos="fade-up">Hi, I'm <span class="highlight typed"></span></h1>
+      <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="200">Crafting exceptional digital experiences with code & creativity</p>
+      <div class="hero-cta" data-aos="fade-up" data-aos-delay="400">
+        <a href="#projects" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-outline">Contact Me</a>
+      </div>
+      <a href="#about" class="scroll-down" aria-label="Scroll down"><i class="fas fa-chevron-down"></i></a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2 class="section-title" data-aos="fade-up">About Me</h2>
+      <div class="about-content">
+        <div class="about-img" data-aos="fade-right">
+  <div class="img-container">
+    <img src="assets/images/img6.jpg" alt="Ruchika's Profile Photo" loading="lazy">
+    <div class="tech-stack">
+      <div class="tech-icon" data-tooltip="JavaScript"><i class="fab fa-js"></i></div>
+      <div class="tech-icon" data-tooltip="React"><i class="fab fa-react"></i></div>
+      <div class="tech-icon" data-tooltip="Node.js"><i class="fab fa-node-js"></i></div>
+      <div class="tech-icon" data-tooltip="Python"><i class="fab fa-python"></i></div>
+    </div>
+  </div>
+</div>
+        <div class="about-text" data-aos="fade-left">
+          <h3>Full Stack Developer</h3>
+          <p>I am specialized in building responsive, high-performance web applications using modern technologies. My passion for clean code and intuitive UX brings ideas to life in the browser.</p>
+          <div class="about-details">
+            <div class="detail-item">
+              <i class="fas fa-graduation-cap"></i>
+              <div>
+                <h4>Education</h4>
+                <p>Computer Science Degree</p>
+              </div>
+            </div>
+            <div class="detail-item">
+              <i class="fas fa-briefcase"></i>
+              <div>
+                <h4>Experience</h4>
+                <p>3+ Years Developing</p>
+              </div>
+            </div>
+          </div>
+          <div class="social-links">
+            <a href="https://github.com/CoderRuchi" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="ruchikavyavahare05@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+          </div>
+          <div class="resume-actions">
+            <a href="resume.pdf" download class="btn btn-primary" data-aos="fade-up">Download Resume</a>
+            <a href="resume.html" target="_blank" class="btn btn-outline" data-aos="fade-up">Preview Resume</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills">
+    <div class="container">
+      <h2 class="section-title" data-aos="fade-up">My Skills</h2>
+      <div class="skills-tabs" data-aos="fade-up">
+        <button class="tab-btn active" data-tab="frontend">Frontend</button>
+        <button class="tab-btn" data-tab="backend">Backend</button>
+        <button class="tab-btn" data-tab="tools">Tools</button>
+      </div>
+      <div class="tab-content active" id="frontend">
+        <div class="skills-grid">
+          <div class="skill-card" data-aos="zoom-in">
+            <i class="fab fa-html5 skill-icon"></i>
+            <h3>HTML5</h3>
+            <div class="skill-progress"><div class="progress-bar" style="width: 95%;"></div></div>
+          </div>
+          <div class="skill-card" data-aos="zoom-in">
+            <i class="fab fa-css3-alt skill-icon"></i>
+            <h3>CSS3</h3>
+            <div class="skill-progress"><div class="progress-bar" style="width: 90%;"></div></div>
+          </div>
+          <div class="skill-card" data-aos="zoom-in">
+            <i class="fab fa-js skill-icon"></i>
+            <h3>JavaScript</h3>
+            <div class="skill-progress"><div class="progress-bar" style="width: 85%;"></div></div>
+          </div>
+          <div class="skill-card" data-aos="zoom-in">
+            <i class="fab fa-react skill-icon"></i>
+            <h3>React</h3>
+            <div class="skill-progress"><div class="progress-bar" style="width: 80%;"></div></div>
+          </div>
+          <div class="skill-card" data-aos="zoom-in">
+            <i class="fab fa-bootstrap skill-icon"></i>
+            <h3>Bootstrap</h3>
+            <div class="skill-progress"><div class="progress-bar" style="width: 85%;"></div></div>
+          </div>
+        </div>
+      </div>
+      <div class="tab-content" id="backend">
+        <div class="skills-grid">
+          <div class="skill-card" data-aos="zoom-in">
+            <i class="fab fa-node-js skill-icon"></i>
+            <h3>Node.js</h3>
+            <div class="skill-progress"><div class="progress-bar" style="width: 80%;"></div></div>
+          </div>
+          <div class="skill-card" data-aos="zoom-in">
+            <i class="fab fa-python skill-icon"></i>
+            <h3>Python</h3>
+            <div class="skill-progress"><div class="progress-bar" style="width: 85%;"></div></div>
+          </div>
+          <div class="skill-card" data-aos="zoom-in">
+            <i class="fas fa-database skill-icon"></i>
+            <h3>PostgreSQL</h3>
+            <div class="skill-progress"><div class="progress-bar" style="width: 75%;"></div></div>
+          </div>
+          <div class="skill-card" data-aos="zoom-in">
+            <i class="fas fa-server skill-icon"></i>
+            <h3>Django</h3>
+            <div class="skill-progress"><div class="progress-bar" style="width: 80%;"></div></div>
+          </div>
+        </div>
+      </div>
+      <div class="tab-content" id="tools">
+        <div class="skills-grid">
+          <div class="skill-card" data-aos="zoom-in">
+            <i class="fab fa-git-alt skill-icon"></i>
+            <h3>Git</h3>
+            <div class="skill-progress"><div class="progress-bar" style="width: 90%;"></div></div>
+          </div>
+          <div class="skill-card" data-aos="zoom-in">
+            <i class="fab fa-docker skill-icon"></i>
+            <h3>Docker</h3>
+            <div class="skill-progress"><div class="progress-bar" style="width: 70%;"></div></div>
+          </div>
+          <div class="skill-card" data-aos="zoom-in">
+            <i class="fas fa-terminal skill-icon"></i>
+            <h3>CLI</h3>
+            <div class="skill-progress"><div class="progress-bar" style="width: 85%;"></div></div>
+          </div>
+          <div class="skill-card" data-aos="zoom-in">
+            <i class="fab fa-figma skill-icon"></i>
+            <h3>Figma</h3>
+            <div class="skill-progress"><div class="progress-bar" style="width: 75%;"></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <div class="container">
+      <h2 class="section-title" data-aos="fade-up">My Projects</h2>
+      <div class="projects-filter" data-aos="fade-up">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="webapps">Web Apps</button>
+        <button class="filter-btn" data-filter="productivity">Productivity</button>
+        <button class="filter-btn" data-filter="technical">Technical</button>
+      </div>
+      <div class="projects-carousel">
+        <div class="carousel-inner">
+          <div class="project-card" data-category="webapps" data-aos="fade-up">
+            <div class="project-img">
+              <img src="assets/images/ecom.png" alt="E-Commerce Platform" loading="lazy">
+              <div class="project-links">
+                <a href="#" class="project-link" aria-label="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+                <a href="#" class="project-link" aria-label="View Code"><i class="fab fa-github"></i></a>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>E-Commerce Platform</h3>
+              <p>Full-featured online store with cart, product management, and payment integration.</p>
+              <div class="project-tech">
+                <span>Django</span><span>React</span><span>PostgreSQL</span><span>Stripe</span>
+              </div>
+            </div>
+          </div>
+          <div class="project-card" data-category="webapps" data-aos="fade-up">
+            <div class="project-img">
+              <img src="assets/images/exam-system.png" alt="Online Examination System" loading="lazy">
+              <div class="project-links">
+                <a href="#" class="project-link" aria-label="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+                <a href="#" class="project-link" aria-label="View Code"><i class="fab fa-github"></i></a>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>Online Examination System</h3>
+              <p>Secure platform for creating and taking exams with auto-grading and analytics.</p>
+              <div class="project-tech">
+                <span>Python</span><span>Django</span><span>JavaScript</span><span>Bootstrap</span>
+              </div>
+            </div>
+          </div>
+          <div class="project-card" data-category="webapps" data-aos="fade-up">
+            <div class="project-img">
+              <img src="assets/images/freelance.jpg" alt="Freelancify" loading="lazy">
+              <div class="project-links">
+                <a href="#" class="project-link" aria-label="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+                <a href="#" class="project-link" aria-label="View Code"><i class="fab fa-github"></i></a>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>Freelancify</h3>
+              <p>Marketplace for freelancers and clients with profiles, job postings, and chat.</p>
+              <div class="project-tech">
+                <span>Django</span><span>React</span><span>WebSockets</span><span>DRF</span>
+              </div>
+            </div>
+          </div>
+          <div class="project-card" data-category="productivity" data-aos="fade-up">
+            <div class="project-img">
+              <img src="assets/images/expense-tracker.png" alt="Expense Tracker" loading="lazy">
+              <div class="project-links">
+                <a href="#" class="project-link" aria-label="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+                <a href="#" class="project-link" aria-label="View Code"><i class="fab fa-github"></i></a>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>Expense Tracker</h3>
+              <p>Personal finance app for tracking spending and visualizing budgets.</p>
+              <div class="project-tech">
+                <span>JavaScript</span><span>Chart.js</span><span>LocalStorage</span>
+              </div>
+            </div>
+          </div>
+          <div class="project-card" data-category="technical" data-aos="fade-up">
+            <div class="project-img">
+              <img src="assets/projects/drf.webp" alt="Django REST API" loading="lazy">
+              <div class="project-links">
+                <a href="#" class="project-link" aria-label="View Code"><i class="fab fa-github"></i></a>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>Django REST API</h3>
+              <p>Secure RESTful API with authentication and optimized queries.</p>
+              <div class="project-tech">
+                <span>Python</span><span>DRF</span><span>JWT</span><span>Postman</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control prev" aria-label="Previous"><i class="fas fa-chevron-left"></i></button>
+        <button class="carousel-control next" aria-label="Next"><i class="fas fa-chevron-right"></i></button>
+      </div>
+      <div class="github-stats" data-aos="fade-up">
+        <h3>My GitHub Contributions</h3>
+        <img src="https://ghchart.rshah.org/yourusername" alt="GitHub Contributions" loading="lazy">
+        <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" class="btn btn-primary">View GitHub Profile</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certificates Section -->
+  <section id="certificates" class="certificates">
+    <div class="container">
+      <h2 class="section-title" data-aos="fade-up">My Certificates</h2>
+      <div class="certificates-grid" data-aos="fade-up">
+        <div class="certificate-card">
+          <div class="certificate-img">
+            <img src="assets/certificates/full-stack.jpg" alt="Full Stack Developer Certificate" loading="lazy">
+          </div>
+          <div class="certificate-info">
+            <h3>Full Stack Web Development</h3>
+            <p>Issuer: Coursera</p>
+            <p>Date: January 2024</p>
+            <a href="#" class="btn btn-outline" target="_blank" rel="noopener noreferrer">Verify Certificate</a>
+          </div>
+        </div>
+        <div class="certificate-card">
+          <div class="certificate-img">
+            <img src="assets/certificates/react.jpg" alt="React Developer Certificate" loading="lazy">
+          </div>
+          <div class="certificate-info">
+            <h3>React Developer Certification</h3>
+            <p>Issuer: Udemy</p>
+            <p>Date: June 2023</p>
+            <a href="#" class="btn btn-outline" target="_blank" rel="noopener noreferrer">Verify Certificate</a>
+          </div>
+        </div>
+        <div class="certificate-card">
+          <div class="certificate-img">
+            <img src="assets/certificates/aws.jpg" alt="AWS Certified Developer" loading="lazy">
+          </div>
+          <div class="certificate-info">
+            <h3>AWS Certified Developer</h3>
+            <p>Issuer: Amazon Web Services</p>
+            <p>Date: March 2024</p>
+            <a href="#" class="btn btn-outline" target="_blank" rel="noopener noreferrer">Verify Certificate</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <!-- <section id="testimonials" class="testimonials">
+    <div class="container">
+      <h2 class="section-title" data-aos="fade-up">What People Say</h2>
+      <div class="testimonials-grid" data-aos="fade-up">
+        <div class="testimonial-card">
+          <img src="assets/client1.jpg" alt="Client 1" class="testimonial-img" loading="lazy">
+          <p>"Ruchika delivered an outstanding e-commerce platform with seamless functionality and a great user experience."</p>
+          <h4>Jane Doe</h4>
+          <p class="testimonial-role">CEO, TechStartup</p>
+        </div>
+        <div class="testimonial-card">
+          <img src="assets/client2.jpg" alt="Client 2" class="testimonial-img" loading="lazy">
+          <p>"Her expertise in full-stack development made our project a success. Highly professional and responsive."</p>
+          <h4>John Smith</h4>
+          <p class="testimonial-role">Project Manager, WebCorp</p>
+        </div>
+        <div class="testimonial-card">
+          <img src="assets/client3.jpg" alt="Client 3" class="testimonial-img" loading="lazy">
+          <p>"The expense tracker app was intuitive and well-designed. Ruchika’s attention to detail is impressive."</p>
+          <h4>Emily Brown</h4>
+          <p class="testimonial-role">Freelance Client</p>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2 class="section-title" data-aos="fade-up">Get In Touch</h2>
+      <div class="contact-content">
+        <div class="contact-info" data-aos="fade-right">
+          <h3>Let's Collaborate</h3>
+          <p>Available for freelance projects or full-time opportunities. Drop me a message to discuss your ideas!</p>
+          <div class="contact-details">
+            <div class="detail-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <h4>Location</h4>
+                <p>Your City, Country</p>
+              </div>
+            </div>
+            <div class="detail-item">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <h4>Email</h4>
+                <p>your.email@example.com</p>
+              </div>
+            </div>
+          </div>
+          <div class="contact-social">
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+        <form id="contact-form" class="contact-form" data-aos="fade-left">
+          <div class="form-group">
+            <input type="text" id="name" name="name" placeholder=" " required>
+            <label for="name">Your Name</label>
+          </div>
+          <div class="form-group">
+            <input type="email" id="email" name="email" placeholder=" " required>
+            <label for="email">Your Email</label>
+          </div>
+          <div class="form-group">
+            <input type="text" id="subject" name="subject" placeholder=" " required>
+            <label for="subject">Subject</label>
+          </div>
+          <div class="form-group">
+            <textarea id="message" name="message" placeholder=" " rows="5" required></textarea>
+            <label for="message">Your Message</label>
+          </div>
+          <button type="submit" class="btn btn-primary">
+            <span class="btn-text">Send Message</span>
+            <i class="fas fa-paper-plane"></i>
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <a href="#">Ruchi<span class="highlight">.dev</span></a>
+          <p>Building digital experiences that matter</p>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Tutorials</a></li>
+            <li><a href="#">Freebies</a></li>
+          </ul>
+        </div>
+        <div class="footer-newsletter">
+          <h4>Newsletter</h4>
+          <p>Subscribe for development tips and resources</p>
+          <form class="newsletter-form">
+            <input type="email" placeholder="Your Email" required>
+            <button type="submit"><i class="fas fa-paper-plane"></i></button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© <span id="year"></span> Ruchika. All rights reserved.</p>
+        <div class="footer-legal">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <a href="#home" class="back-to-top" aria-label="Back to top"><i class="fas fa-arrow-up"></i></a>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="js/particles.min.js"></script>
+  <script src="js/script.js" defer></script>
+</body>
+</html>
